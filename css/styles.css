@@ -92,5 +92,14 @@
 .interaction_nav {
   text-align: right;
   list-style-type: none;
+}
+
+.interaction_nav li {
   display: inline;
+  margin-left: 10px;
+  color: #0645AD;
+}
+
+.interaction_nav li:first-child {
+  color: black
 }
