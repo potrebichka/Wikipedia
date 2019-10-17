@@ -1,0 +1,75 @@
+.left-col {
+  top: 0;
+  left: 0;
+  width: 280px;
+  height: 1000px;
+  background-color: gainsboro;
+  float: left;
+}
+.welcome {
+  *width: 100%;
+  background-color: #f9f9f9;
+  *display: block;
+  margin: 10px;
+  margin-left: 190px;
+  text-align: center;
+  *border: 1px solid gray;
+  height: 130px;
+}
+@media screen and (max-width:1200px) {
+  .welcome {
+    overflow: hidden;
+  }
+}
+
+.titles {
+  padding: 10px;;
+}
+
+.titles_green {
+  background-color: #cef2e0;
+  border: 1px solid #a3bfb1
+}
+
+.titles_blue {
+  background-color: #cedff2;
+  border: 1px solid #a3b0bf
+}
+
+.battle {
+  width: 156px;
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.right-align {
+  text-align: right;
+}
+
+.blue-styling {
+  color: blue
+}
+
+.float-right {
+  float: right;
+  margin-left: 10px
+}
+
+.hannah {
+  width: 120px
+}
+
+.article_nav {
+  list-style-type: none;
+
+}
+
+.inline_nav {
+  display:inline;
+}
+
+.inline_nav::after {
+  content: ' . ';
+  font-weight: bold;
+}
