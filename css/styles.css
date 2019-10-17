@@ -1,17 +1,14 @@
 .left-col {
   top: 0;
   left: 0;
-  width: 280px;
-  height: 1000px;
+  width: 160px;
+  height: 2200px;
   background-color: gainsboro;
   float: left;
 }
 .welcome {
-  *width: 100%;
   background-color: #f9f9f9;
-  *display: block;
   margin: 10px;
-  margin-left: 190px;
   text-align: center;
   *border: 1px solid gray;
   height: 130px;
@@ -72,4 +69,28 @@
 .inline_nav::after {
   content: ' . ';
   font-weight: bold;
+}
+
+#logo {
+  height:160px;
+  margin-left: 15px;
+  margin-bottom: 20px
+}
+
+.main-description {
+  list-style-type: none;
+  color: #0645AD;
+  margin-left: -20px;
+}
+
+.menu-label {
+  margin-left: 20px;
+  margin-right: 20px;
+  border-bottom: 1px solid gray;
+}
+
+.interaction_nav {
+  text-align: right;
+  list-style-type: none;
+  display: inline;
 }
