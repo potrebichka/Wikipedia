@@ -89,6 +89,10 @@
   border-bottom: 1px solid gray;
 }
 
+.all_nav {
+  display: block
+}
+
 .interaction_nav {
   text-align: right;
   list-style-type: none;
@@ -102,4 +106,30 @@
 
 .interaction_nav li:first-child {
   color: black
+}
+
+.nav-tabs {
+  height: 100px;
+}
+
+.all_nav ul {
+  display: inline
+}
+
+.main_nav {
+  text-align: left;
+}
+
+.main_nav li {
+  display: inline;
+  margin: 0;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-bottom: 1px solid lightblue;
+  border-top: none;
+  border-left: none
+}
+
+.today-picture {
+  background-color: thistle
 }
